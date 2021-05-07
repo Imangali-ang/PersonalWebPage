@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body{
+  overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #1D1D1D;
+    font-family: 'Lilita One', cursive;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Style the header */
+.header {
+    background: #181818;
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    width: 6.5%;
+    height: 100%;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 6.5%;
+    height: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  .logo{
+      padding: 10px 10px 10px 10px;
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+   
+  }
+
+  .header .myname_header{
+      text-align: center;
+      font-size: 27px;
+  }
+
+  .header .work_header{
+      font-size: 10px;
+      text-align: center;
+      color: #A5A5A5;
+  }
+
+
+  .header .navigator{
+      display: flex;
+      flex-direction: column;
+      margin-top: 80%;
+  }
+
+  .header .navigator div{
+      text-align: center;
+      border-top: 0.5px solid rgb(165,165,165 , 0.4);
+      border-bottom: 0.5px solid rgb(165,165,165 , 0.4);
+      color: #A5A5A5;
+    font-size: 16px;
+      padding: 15px 15px 15px 15px;
+  }
+
+  .header .navigator div a{
+text-decoration: none;
+color: #A5A5A5;
+  }
+
+  .header .navigator div a:hover{
+   color:#08FDD8;
+  }
+
+  .header .socialmedias{
+      display: flex;
+      flex-direction: row;
+      margin-top: 80%;
+  }
+
+  .header .socialmedias a{
+    margin-left: 12px;
+    width: 20px;
+    color: #08fdd8;
+    text-decoration: none;
+  }
+
+  .all{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home{
+    display: flex;
+    flex-direction: row;
+      padding-top: 90px;
+      padding-bottom: 90px;
+      padding-right: 30px;
+      padding-left: 150px;
+  }
+
+  .hello{
+    width: 50%;
+  }
+
+  .home .popa{
+      color: white;
+      letter-spacing: 1.3;
+      font-size: 103px;
+  }
+
+  .home .hello .logoInWords{
+    width:180px;
+    display: flex;
+    flex-direction: column;
+      z-index: 2;
+      position: absolute;
+      top:170px;
+      left:270px;
+  }
+
+  .home .hello .future{
+    letter-spacing: 2px;
+    color: gray;
+    font-family: "Open Sans";
+  }
+
+  .home .hello .contact{
+    text-decoration: none;
+    background: none;
+    color:#08FDD8;
+    border-color: #08FDD8;
+    margin-top: 50px;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+  }
+
+  .home .hello .contact a{
+    text-decoration: none;
+    color:#08FDD8;
+  }
+
+  .home .hello .contact:hover{
+    background-color: #08FDD8;
+    color: #1D1D1D;
+  }
+
+  .home .hello .contact:hover a{
+    color: #1D1D1D;
+  }
+
+  .home .bigI{
+    -webkit-transform:rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+    width: 50%;
+  }
+
+ .second{
+  display: flex;
+  flex-direction: column;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-right: 30px;
+    padding-left: 150px;
+ }
+
+ .second .bigWords{
+   color:#08fdd8;
+   font-size: 76px;
+ }
+
+.second .lala{
+  font-family: "Open Sans";
+  color: white;
+}
+
+.portfolio{
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+}
+
+.portfolio div{
+ width: 25%;
+ height: 300px;
+ background-color: teal;
+}
+
+.portfolio div img{
+  filter: brightness(0.30);
+width: 100%;
+height: 100%;
+}
+
+.portfolio div img:hover{
+  filter: brightness(1);
+}
+
+
+.hobies{
+  display: flex;
+  flex-direction: row;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-right: 30px;
+  padding-left: 150px;
+}
+
+.hobies .me{
+  margin-top: 200px;
+  width: 50%;
+}
+
+.hobies .sphere{
+  width: 50%;
+}
+
+
+.hobies .me .question{
+  color:#08fdd8;
+  font-size: 76px;
+}
+
+.hobies .many_words{
+  color: white;
+  font-family: "Open Sans";
+}
+
+.tagBall{
+  width:50%;
+  height: 400px;;
+  margin:100px auto;
+  position:relative;
+}
+
+
+.tag{
+  display:block;
+  position:absolute;
+  left:70%;
+  top:0px;
+  color:#000;
+  text-decoration:none;
+  font-size:15px;
+  font-weight:bold;}
+
+  .finally{
+    display: flex;
+    flex-direction: row;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-right: 30px;
+    padding-left: 150px;
+  }
+
+  .finally .finalWords{
+    width: 50%;
+  }
+
+  .finally .map{
+    width: 50%;
+  }
+
+  .finally .finalWords .BIG{
+    color:#08fdd8;
+  font-size: 76px;
+  }
+
+  .inputs{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputs input{
+    height: 25px;
+    margin-top: 10px;
+    border: none;
+    background-color: #2B2B2B;
+    width: 400px;
+  } 
+
+  .send{
+    margin-left:30%;
+    background: none;
+    color:#08FDD8;
+    border-color: #08FDD8;
+    margin-top: 50px;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+  }
+
+  .send:hover{
+    background-color: #08FDD8;
+    color: #1D1D1D;
+  }
+
+
+  @media(max-width:800px){
+
+    .header{
+      display: none;
+    }
+
+    .hello{
+      width: 100%;
+    }
+
+   .hello .popa{
+      font-size: 57px;
+    }
+
+   .home .hello .logoInWords{
+    width:100px;
+      left:105px;
+      top:130px;
+    }
+
+    .bigI{
+      display: none;
+    }
+
+    .home , .second , .hobies , .finally{
+      padding-left: 40px;
+    }
+
+    .portfolio{
+      padding-left: 0px;
+    }
+
+    .portfolio div{
+      height: 200px;
+    }
+
+    .hobies{
+      flex-direction: column;
+    }
+
+    .hobies .me{
+      width: 100%;
+    }
+
+    .finally{
+      flex-direction: column;
+    }
+
+    .finally .inputs{
+      text-align: center;
+      width: 100%;
+    }
+
+    .finally .map{
+      margin-top: 50px;
+      width: 100%;
+    }
+
+    
+
+    .tagBall{
+      width:100%;
+      height: 400px;;
+      margin-top:100px;
+      position:relative;
+    }
+
+    .finally .finalWords .BIG{
+      font-size: 45px;
+    }
+  }

@@ -1,0 +1,314 @@
+@import url(//db.onlinewebfonts.com/c/64c0284f1ada1cf79ec484ac28eee170?family=Louis+Vuitton);
+
+*{
+    font-family: "Louis Vuitton","Helvetica Neue","Helvetica",Arial,sans-serif ;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.125rem;
+    letter-spacing: .025rem;
+}
+
+.one{
+    padding: 5px 40px ;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+ 
+.lang{
+    height: 40px; 
+}
+
+header{
+    height: 112px; 
+}
+
+.timetools{
+    display: flex;
+}
+
+.second{
+    justify-content: space-between;
+    display: flex;
+    height: 72px;
+    border-bottom: 1px solid black;
+    padding: 17px 40px ;
+}
+
+.left-nav{
+    display: flex;
+}
+
+#search{
+    background-color: #f6f5f3;
+    border-radius: .375rem;
+    border: none;
+    width: 400px;
+    height: 30px;
+}
+
+.push-content{
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+    height: 200px;
+    border-bottom: 1px solid grey;   
+}
+
+.alma{
+    display: flex;
+}
+
+.left-alma{
+    border-right: 0.5px solid grey;
+    border-bottom: 0.5px solid grey;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    width: 50%;
+}
+
+.right-alma{
+    width: 50%;
+}
+
+.right-alma-1{
+    padding: 50px 50px 50px 50px;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    border-bottom:1px solid grey ;
+}
+
+.right-alma-2{
+    height: 50%;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+    border-bottom:1px solid grey ;
+}
+
+.vniz{
+    display: flex;
+}
+.obj-1 .obj-2 .obj-3{
+    
+    width: 33%;
+    
+}
+
+.obj-1{
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    border: 1px solid grey;
+}
+
+.obj-2{
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    border: 1px solid grey;
+}
+
+.obj-3{
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    border: 1px solid grey;
+}
+
+footer{
+    background-color: black;
+    color:white
+}
+
+.foot-1{
+    padding:30px 100px;
+}
+
+.foot-2{
+    padding:30px 70px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.but1{
+    background-color: black;
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    border: none;
+}
+.but1:hover{
+    color: black;
+    background-color: grey;
+}
+
+.but2{
+    background-color: black;
+       color: white;
+       width: 40%;
+     height: 60px;
+     border: none;
+}
+
+.but2:hover{
+    color: black;
+    background-color: grey;
+}
+
+
+.words{
+    border: none;
+    background-color: white;
+    height: 100%;
+    cursor: pointer;
+}
+
+.words:focus{
+ outline: none;
+}
+
+.navigator{
+    display: flex;
+}
+
+
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    height:100%;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .left-now-content{
+     padding: 32px 32px 32px 32px;
+     line-height: 30px;
+      height: 100%;
+      width: 30%;
+      background-color: white;
+      color:black;
+  }
+
+  .left-now-content a{
+    color:black;
+  }
+
+  .left-now-content button{
+      background: none;
+      border: none;
+  }
+
+  .left-now-content button:hover{
+outline: none;  
+}
+  
+
+  .mid-now-content{
+    z-index: 5;
+    display: none; 
+    /* position: absolute; */
+    height: 100%;
+    width: 70%;
+    /* line-height: 30px; */
+    /* padding: 32px 32px 32px 32px; */
+    background-color: grey;
+  } 
+
+  .comments{
+    width: 30%;
+    padding: 32px 32px 32px 32px;
+    line-height: 30px;
+  }
+
+  .imgs{
+    width: 70%;
+    height: 100%;
+  }
+
+  .woman-cantainer{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    height:100%;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .mid-now-content a{
+      text-decoration: none;
+    color:black;
+  }
+
+  .contentnow{
+      display: flex;
+      width: 100%;
+      height: 100%;
+  }
+
+  .dropdowncontent button:focus{
+  outline: none;
+  }
+
+
+  .show {display:block;}
+
+  .showwom{
+    display: block;
+  }
+
+  .showwomer{
+    display: block;
+  }
+
+  .disapeer{
+      display: none;
+  }
+
+
+  .mans-now-content{
+    z-index: 7;
+    display: none; 
+    height: 100%;
+    width: 70%;
+    /* line-height: 30px; */
+    /* padding: 32px 32px 32px 32px; */
+    background-color: grey;
+  }
+
+  .mid-now-content a:hover{
+      text-decoration: underline;
+  }
+
+.nadoelo{
+display: flex;
+}
+
+.mans-now-content a{
+    text-decoration:none;
+    color:black
+} 
+.mans-now-content a:hover{
+    text-decoration:underline;
+}
+
+.nadoel2{
+    display: flex;
+}
+
+.kakty{
+    line-height: 30px;
+    padding: 32px 32px 32px 32px;
+    width:40%
+}
+
+.jopa{
+    width:60%
+}
